@@ -65,5 +65,5 @@ jobs:
         with:
           app-name: 'tech0-gen-11-step4-node-2'
           slot-name: 'Production'
-          package: release.zip
+          package: ./deploy
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F6DBDD760BF45BB8EF0639B53062AF0 }}
